@@ -1,12 +1,12 @@
 cask "floatplane" do
-  version "1.2.3"
+  version "1.3.5"
 
   on_arm do
-    sha256 "b71d81d7dcec8bce6abe9c72daa91bfaea09cf79556215ee5cd79d588b7845d8"
+    sha256 "3121cf7556872de0be0eedea2de57ebfef9638f9ba7aa7fe50c53825a638da40"
     url "https://github.com/andrinoff/floatplane/releases/download/v#{version}/Floatplane-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "feac1542551b5d952193f06b7784415ee995a9eb37c3f0a0aabfeaed866d60f9"
+    sha256 "71bb62cb0efeef6093f768210b7d4b16825e2f7c28ce56c953de1599a0d758e5"
     url "https://github.com/andrinoff/floatplane/releases/download/v#{version}/Floatplane-#{version}-x64.dmg"
   end
 
