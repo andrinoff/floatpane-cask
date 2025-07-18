@@ -1,12 +1,12 @@
 cask "floatpane" do
-  version "1.4.5"
+  version "1.4.6"
 
   on_arm do
-    sha256 "ff29a180452460bed9b444e8384b4a5ed35f39ec8b74f3c295cc596b0a3340d1"
+    sha256 "179f1d500cbe3baf337bd3765bbb24544ccfb8ccc3928f38917ff58770d2ffba"
     url "https://github.com/andrinoff/floatpane/releases/download/v#{version}/floatpane-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "7b6da02b35e24da52da54fb8d9b9aeffe263a355495effb64c4584846a6b03d9"
+    sha256 "55a60de86dd180e16a6adeb692a34c4d732de202059e0629199ad52886abb9fd"
     url "https://github.com/andrinoff/floatpane/releases/download/v#{version}/floatpane-#{version}-x64.dmg"
   end
 
